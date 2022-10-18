@@ -1,0 +1,22 @@
+machine.initalizeRegister(1, 5);
+machine.initalizeRegister(2, 3);
+
+program.addCode(1, 4, '+', 2);
+program.addCode(2, 1, '-', 3, 8);
+program.addCode(3, 5, '+', 4);
+program.addCode(4, 2, '-', 1, 12);
+program.addCode(5, 1, '-', 19, 19);
+program.addCode(6, 2, '-', 14, 14);
+program.addCode(7, 3, '+', 17);
+program.addCode(8, 4, '-', 9, 10);
+program.addCode(9, 1, '+', 8);
+program.addCode(10, 5, '-', 11, 5);
+program.addCode(11, 2, '+', 10);
+program.addCode(12, 5, '-', 13, 6);
+program.addCode(13, 2, '+', 12);
+program.addCode(14, 1, '-', 15, 7);
+program.addCode(15, 4, '+', 16);
+program.addCode(16, 3, '+', 14);
+program.addCode(17, 4, '-', 18, 19);
+program.addCode(18, 1, '+', 17);
+
